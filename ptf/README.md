@@ -179,7 +179,7 @@ confluent flink udf create \
 
 ```sql
 CREATE FUNCTION windowptf 
-AS 'io.confluent.flink.examples.ptf.WindowSignalPTF' 
+AS 'io.confluent.flink.examples.windowstate.WindowSignalPTF' 
 USING JAR 'confluent-artifact://<id>';
 ```
 
